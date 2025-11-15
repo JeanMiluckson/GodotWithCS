@@ -10,7 +10,6 @@ public partial class Player : CharacterBody3D
 	public override void _Ready()
 	{
 		animPlayerNode.Play(GConstants.ANIM_IDLE);
-		GD.Print("Testando");
 	}
 
 	public override void _PhysicsProcess(double delta)
